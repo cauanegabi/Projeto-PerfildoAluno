@@ -1,0 +1,84 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo e Galeria</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+   
+    <h1>Cauane Gabrielle Souza Costa Messias</h1>
+    <h3>RA: 32323455 - Análise e Desenvolvimento de Sistemas - 3º período.</h3>
+    <h3>Endereço: Rua Abílio Alves dos Santos - Bairro Goiânia, MG.</h3>
+    <h3>Telefone: (99) 9 9999-9999</h3>
+    <tr>
+        <td>CPF:</td>
+        <td><input type="text" id="cpf" placeholder="Digite seu CPF" onblur="validarCPF(this.value)">
+            <div id="mensagemErro" style="color: rgb(0, 0, 0);"></div>
+        </td>
+    </tr>
+    <tr>
+        <td>E-mail:</td>
+        <td > <input type="text" id="email" placeholder="Digite seu email" onblur="validarEmail(this.value)">
+            <div id="mensagemErroEmail" style="color: rgb(0, 0, 0);"></div>
+        </td>
+
+        <div>
+            <img class="imagem" id="imagens" src="magali1.jpg"><br>
+            <a href="#" onclick="trocarImagem('magali1.jpg')"><img width="20%" src="trocaImg.jpg"></a>
+            <a href="#" onclick="trocarImagem('magali2.jpg')"><img width="20%" src="trocaImg.jpg"></a>
+            </div>
+
+    <tr>
+        <td class="td-simple-title">UCs Cursadas:</td>
+        <td>
+            <table id="ucsCursadas">
+                <tbody>
+                    <tr>
+                        <td ><input type="checkbox"></td>
+                        <td >Usabilidade, Desenvolvimento Web, Mobile e Jogos</td>
+                    </tr>
+                    <tr>
+                        <td> <input type="checkbox"></td>
+                        <td> Sistemas computacionais e segurança</td>
+                    </tr>
+                    <tr>
+                        <td> <input type="checkbox"> </td>
+                        <td> Ambientes computacionais e conectividade </td>
+                    </tr>
+                    <tr>
+                        <td> <input type="checkbox"> </td>
+                        <td> Vida e Carreira </td>
+                    </tr>
+                    <tr>
+                        <td> <input type="checkbox"> </td>
+                        <td> Inovação, sustentabilidade e competitividade empresarial </td>
+                    </tr>
+                    <td><button onclick="moverCima()">Mover para Cima</button></td>
+                    <td><button onclick="moverBaixo()">Mover para Baixo</button></td>
+                </tbody>
+            </table>    
+            <button onclick="adicionarUC()">Adicionar Nova UC</button>   
+        </td>
+    </tr>
+</td>
+</tr>
+    
+    <table>
+      <tr>
+    <th>Perfil Pessoal</th>
+    <td>Sou uma pessoa apaixonada por explorar o mundo e descobrir novas culturas. Adoro passear e conhecer lugares novos, especialmente quando posso compartilhar essas experiências com a minha família.</td>
+      </table>
+    
+    <table>
+  <tr>
+    <th>Perfil Profissional</th>
+    <td>Estudante de Análise e Desenvolvimento de Sistemas, apaixonada por tecnologia e sempre em busca de novos conhecimentos e desafios. Possuo mais de 2 anos de experiência como instrutora de informática na Microlins. Fui estagiária na Tekisa, onde prestava apoio no atendimento às ligações, realizava registro de chamados e mantinha o cliente informado sobre o andamento dos mesmos. Atualmente, trabalho como analista de serviços.</td>
+    </table>
+
+    <a href="https://www.linkedin.com/in/cauane-gabrielle/" target="_blank">Visite meu LinkedIn</a>
+
+    <script src="JS.js"></script>
+  </body>
+</html>

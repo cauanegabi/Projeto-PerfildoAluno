@@ -1,0 +1,33 @@
+/* Estilo da pag */
+body {
+    font-family: Arial, sans-serif;
+    background-color:#f7ecc5;
+    text-align: center;
+    padding: 20px;
+  }
+  
+/* Estilo das fotos */
+.imagem {
+    width: 300px;
+    margin: 20px auto;
+    position: center;
+}
+
+/* Estilo da tabela */
+  table{
+  border-spacing: 60px;
+ }
+
+ button {
+  background-color:#f0e3b3;
+  text-align: center;
+  padding: 20px;
+   }
+
+  input {
+  background-color:#fffbfb;
+  text-align: center;
+  padding: 5px;
+  width: 200px;
+  margin: 10px;
+  }
